@@ -10,7 +10,7 @@ alldata = {};
 totalsize = 0;
 pass = 0;
 
-for filelistname={'../~train.txt','../~allfiles.txt'}
+for filelistname={'~train.txt','~allfiles.txt'}
     filelist = fopen(char(filelistname));
     fname = fgetl(filelist);
     numfile = 0;

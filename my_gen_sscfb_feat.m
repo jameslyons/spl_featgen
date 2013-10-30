@@ -2,7 +2,7 @@ function ym_gen_ssc_feat(nbands)
 % the job of this script is to take a file "~files.txt" of wav
 % files 1 per line and create mfc files from them
 
-filelistname='../~allfiles.txt';
+filelistname='~allfiles.txt';
 filelist = fopen(filelistname);
 fname = fgetl(filelist);
 numfile = 0;
